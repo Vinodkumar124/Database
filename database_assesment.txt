@@ -1,0 +1,17 @@
+TASK 1.
+
+    I.  SELECT PRO_NAME,PRO_PRICE FROM `product` WHERE PRO_PRICE >=250;
+        
+    acending and decending order . not possible..
+
+    
+    II.   SELECT MIN(PRO_PRICE) as cheepast_item FROM product;
+    
+
+    III. SELECT AVG(pro_price), PRO_CODE FROM product GROUP BY PRO_CODE;
+
+    IV.  SELECT AVG(pro_price) FROM product WHERE pro_code;
+   
+
+
+
